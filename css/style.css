@@ -1,16 +1,18 @@
-body{
-	font-family: 'Work Sans', sans-serif;
-	color: #808080;
-	font-weight: 300;
-}
-.text-thin{
-	font-weight: 100;
-}
-.title-super{
-	font-size: 40px;
-	font-weight: 100;
-}
-.title-logo{
-	margin-top: 20px;
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #808080;
+    font-weight: 300;
 }
 
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
