@@ -1,95 +1,16 @@
-*{
-	-webkit-box-sizing:border-box;
-	-mz-box-sizing:border-box;
-	-ms-box-sizing:border-box;
-	-box-sizing:border-box;
+body{
+	font-family: 'Work Sans', sans-serif;
+	color: #808080;
+	font-weight: 300;
 }
-img, embed, object,video{
-	max-width: 100%;
+.text-thin{
+	font-weight: 100;
 }
-h1{
-	background-color: #33bebe;
-	color : white;
+.title-super{
+	font-size: 40px;
+	font-weight: 100;
 }
-.app{
-    display: -webkit-flex;
-    display: flex;
-    background-color: red;
+.title-logo{
+	margin-top: 20px;
 }
 
-.image{
-  max-width: 460px;
-  /*background-color: #C1CD89;*/
-}
-.description{
-  max-width:  705px;
-  /*background-color: #8AB3BF;*/
-}
-
-/*img {
-	width: 200px;
-}
-
-#demo {
-	width: 200px;
-	height: 200px;
-
-	margin: 20px auto;
-	border-width: 10px;
-	border-color: #feedbb;
-	border-style: solid;
-	padding: 30px;
-
-	box-sizing: content-box;
-}
-
-
-.box {
-	background-image: linear-gradient(#8AB3BF, #8AB3BF), linear-gradient(#C1CD89, #C1CD89);
-	background-clip: content-box, padding-box, border-box;
-}
-.outer-box {
-	width: 400px;
-	background-color: #F8CB9C;
-	border: 1px white solid;
-	padding: 0;
-	margin: 0 auto;
-	position: relative;
-}
-#grid:after {
-	content: "";
-	position: absolute;
-	top: 0; right: 0; bottom: 0; left: 0;
-	pointer-events: none;
-	background: linear-gradient(0deg, rgba(0,0,0,.05) 1px, transparent 1px),
-	            linear-gradient(0deg, rgba(0,0,0,.1) 1px, transparent 1px),
-	            linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px),
-	            linear-gradient(90deg, rgba(0,0,0,.1) 1px, transparent 1px);
-	background-size: 10px 10px, 50px 50px, 10px 10px, 50px 50px;
-}
-
-dfn {
-	display: block;
-	font-size: 1.5em;
-}
-
-
-dfn:before {
-	content:"";
-	display: inline-block;
-	width: 1em;
-	height: 1em;
-	vertical-align: -.2em;
-	margin-right: .4em;
-	border-radius: 50%;
-}
-
-dfn[title="border"]:before { background: #feedbb }
-dfn[title="margin"]:before { background: #F8CB9C }
-dfn[title="padding"]:before { background: #C1CD89 }
-dfn[title="content"]:before { background: #8AB3BF }
-
-ul {
-	padding-left: 15px;
-}
-*/
