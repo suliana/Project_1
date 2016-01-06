@@ -2,6 +2,8 @@ body {
     font-family: 'Work Sans', sans-serif;
     color: #808080;
     font-weight: 300;
+    /**font-size: 62.5%;*/
+    /**background-image: url('../images/banner1.jpg');*/
 }
 
 .text-thin {
@@ -15,4 +17,236 @@ body {
 
 .title-logo {
     margin-top: 20px;
+}
+
+
+/*body {
+
+    font-family: arial, sans-serif;
+}*/
+
+#nttLogo {
+    height: 100px;
+    width: 100px;
+}
+
+#websiteTitle {
+    font-size: 10em;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    padding-left: 15px;
+    color: #191970;
+}
+
+#websiteSlogan {
+    font-size: 5.4em;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+/* Carousel Styling */
+
+.slide1 {
+    background-image: url('../images/africa3.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide2 {
+    background-image: url('../images/africa2.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide3 {
+    background-image: url('../images/africa1.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide4 {
+    background-image: url('../images/africa4.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide5 {
+    background-image: url('../images/africa5.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption h1 {
+    /*font-size: 5.4em;*/
+    font-family: 'Work Sans', sans-serif;
+    /*padding-bottom: .4em;*/
+}
+
+
+/*
+.carousel-caption p {
+    font-size: 2em;
+}*/
+
+
+/* three column section
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel*/
+
+.feature .col-md-4 {
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid 0px red;
+}
+
+.feature h2 {
+    font-weight: normal;
+}
+
+.feature .col-md-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .section-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-heading {
+        /*margin-top: 120px;*/
+    }
+}
+
+@media (max-width: 992px) {
+    .feature .col-md-4 img {
+        display: initial;
+        border: solid 0px red;
+    }
+}
+
+.modal-body img{
+        border: solid 0px red;
+        margin: 0 auto 10px;
+
+}
+
+/* Footer
+-------------------------------------------------- */
+
+
+/*footer{
+    margin-top: 50px;
+    border-top: 1px solid #D6D5D5;
+    padding-top:10px;
+}*/
+
+.section-divider {
+    margin: 60px 0;
 }

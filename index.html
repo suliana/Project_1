@@ -12,48 +12,218 @@
 </head>
 
 <body>
+    <!-- Carousel
+================================================== -->
+    <header>
+        <!-- /header -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#theCarousel" data-slide-to="0" class="active"> </li>
+                <li data-target="#theCarousel" data-slide-to="1"> </li>
+                <li data-target="#theCarousel" data-slide-to="2"> </li>
+                <li data-target="#theCarousel" data-slide-to="3"> </li>
+                <li data-target="#theCarousel" data-slide-to="4"> </li>
+                <li data-target="#theCarousel" data-slide-to="5"> </li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="slide1"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Safari Sunset</h1>
+                            <p>Welcome to Africa</p>
+                            <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide2"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Safari</h1>
+                            <!-- <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide3"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Safari</h1>
+                            <!-- <p>Cras justo odio</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide4"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Safari</h1>
+                            <!-- <p>Cras justo odio</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide5"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>African Safari</h1>
+                            <!-- <p>Cras justo odio</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- /.carousel -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/logo.jpg" class="img-responsive title-logo" alt="My Logo"></div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super ">Suliana Abbay</h1>
+                    <h4 class="title-thin">Front-end Ninja</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+    <!-- NAVBAR
+================================================== -->
+    <nav class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Africa Safari</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    <!--
+================================================== -->
     <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="images/image1.jpg" class="img-responsive" alt="Monkey 1">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Featured Monkey</h2>
+                </div>
+            </div>
+            <div class="row text-center feature">
+                <div class="col-md-4">
+                    <img src="images/image2.jpg" class="img-responsive" alt="Monkey 2" data-toggle="modal" data-target="#project1">
+                    <h3 class="text-uppercase">Buy monkey</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a href="#">https://github.com/udscity/appify</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/image3.jpg" class="img-responsive" alt="Monkey 3" data-toggle="modal" data-target="#project2">
+                    <h3 class="text-uppercase">Monkey world</h3>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a href="#">https://github.com/udscity/appify</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/image4.jpg" class="img-responsive" alt="Monkey 4" data-toggle="modal" data-target="#project3">
+                    <h3 class="text-uppercase">Cheeky monkey</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a href="#">https://github.com/udscity/appify</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- START THE FEATURETTES -->
+        <hr class="section-divider">
         <div class="row">
-            <div class="col-md-6">
-                <img src="images/logo.jpg" class="img-responsive title-logo" alt="My Logo"></div>
-            <div class="col-md-6 text-right text-uppercase">
-                <h1 class="title-super ">Suliana Abbay</h1>
-                <h4 class="title-thin">Front-end Ninja</h4>
+            <div class="col-md-7">
+                <h3 class="section-heading">This calculation is hard. <span class="text-muted">It'll blow your mind.</span></h3>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/monkey1.jpg" class="img-responsive center-block" alt="Monkey 1">
             </div>
         </div>
+        <hr class="section-divider">
         <div class="row">
-            <div class="col-md-12">
-                <hr>
+            <div class="col-md-7 col-md-push-5">
+                <h3 class="section-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h3>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p>Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+                <img src="images/monkey2.jpg" class="img-responsive center-block" alt="Monkey 2">
             </div>
         </div>
+        <hr class="section-divider">
         <div class="row">
-            <div class="col-md-12">
-                <img src="images/image1.jpg" class="img-responsive" alt="Monkey 1">
+            <div class="col-md-7">
+                <h3 class="section-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h3>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p> The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/monkey3.jpg" class="img-responsive center-block" alt="Monkey 3">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Featured Monkey</h2>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <img src="images/image2.jpg" class="img-responsive" alt="Monkey 2" data-toggle="modal" data-target="#project1">
-                <h3 class="text-uppercase">Buy monkey</h3>
-                <p>https://github.com/udscity/appify</p>
-            </div>
-            <div class="col-md-4">
-                <img src="images/image3.jpg" class="img-responsive" alt="Monkey 3" data-toggle="modal" data-target="#project2">
-                <h3 class="text-uppercase">Monkey world</h3>
-                <p>https://github.com/udscity/appify</p>
-            </div>
-            <div class="col-md-4">
-                <img src="images/image4.jpg" class="img-responsive" alt="Monkey 4" data-toggle="modal" data-target="#project3">
-                <h3 class="text-uppercase">Cheeky monkey</h3>
-                <p>https://github.com/udscity/appify</p>
-            </div>
-        </div>
+        <hr class="section-divider">
+        <!-- /END THE FEATURETTES -->
+        <!-- FOOTER
+================================================== -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
     </div>
+    <!-- /.container -->
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -62,7 +232,7 @@
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/image2.jpg"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <img class="img-responsive" src="images/image2.jpg" alt="Mokey world"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -71,14 +241,14 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/image3.jpg"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <img class="img-responsive" src="images/image3.jpg" alt="Mokey world"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -86,7 +256,25 @@
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/image4.jpg" alt="Mokey world"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
