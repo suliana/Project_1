@@ -1,5 +1,5 @@
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     color: #808080;
     font-weight: 300;
     /**font-size: 62.5%;*/
@@ -33,7 +33,7 @@ body {
 #websiteTitle {
     font-size: 10em;
     vertical-align: middle;
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
     padding-left: 15px;
     color: #191970;
 }
@@ -154,7 +154,7 @@ body {
 
 .carousel-caption h1 {
     /*font-size: 5.4em;*/
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     /*padding-bottom: .4em;*/
 }
 
